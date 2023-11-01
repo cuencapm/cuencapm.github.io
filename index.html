@@ -1,25 +1,96 @@
+<!-- Tells the version of html we're using (now html 5)-->
 <!DOCTYPE html>
-<html lang="en">
+<!-- Everything between this tags, is html code -->
+<html>
+<!-- Host information about the webpage -->
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cuenca Pablo Webpage</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <meta charset="utf-8" />
+    <title>Pablo's Personal Site</title>
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
+<!-- All the content about the webpage -->
+
 <body>
-    <nav id="barraMenu">
-        <a href="./album.html">ALBUM</a>
-        <a href="./contact.html">CONTACT ME</a>
+    <nav>
+        <a href="./index.html">HOME</a>
         <a href="./blog.html">BLOG</a>
+        <a href="./contact.html">CONTACT ME</a>
     </nav>
-    <header id="inicio">
-        <h1 id="primertitulo">WELCOME TO MY WEBPAGE</h1>
-    </header>
-    <h1 class="segundotitulo">Siéntete como en casa</h1>
-    <p>I have created this webpage to learn some html</p>
-    <p class="primerparrafo">Hola como estas</p>
-    <h3>About me</h3>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, id! Debitis porro repellat eius rem! Voluptatum, numquam? Totam blanditiis repudiandae labore quae nisi ipsam, sunt nostrum atque corporis optio itaque.</p>
+    <table>
+        <tr>
+            <td><img src="./img/non.png" alt="personal avatar" width="100" height="100"></td>
+            <td>
+                <h1>Pablo Cuenca</h1>
+                <p><em><strong>New</strong> average programmer</em></p>
+                <p>I'm a new programmer student. I'll become a Web Development for work and a development for fun.</p>
+            </td>
+        </tr>
+    </table>
+    <hr>
+    <h3>Education</h3>
+    <!-- List desordenada -->
+    <ul>
+        <li>Escuela <em> 4 de Noviembre</em>.</li>
+        <li>Colegio <em>Pio Jaramillo Alvarado</em>.</li>
+        <li>Colegio <em><a href="https://www.istdab.edu.ec/">Daniel Alvarez Burneo</a></em>.</li>
+        <li>Instituto <em><a href="https://tecnologicosudamericano.edu.ec/">Superior Tecnológico Sudamericano</a></em>.
+        </li>
+    </ul>
+    <hr>
+    <h3>My Hoobies</h3>
+    <!-- Lista ordenada -->
+    <ol>
+        <li><a href="https://es.wikipedia.org/wiki/Programaci%C3%B3n">Programming</a></li>
+        <li>Wacht videos</li>
+        <li>Listen music</li>
+    </ol>
+    <hr>
+    <h3>Work experience</h3>
+    <table cellspacing="10">
+        <thead>
+            <tr>
+                <td>Dates</td>
+                <td>Jobs</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>2016</td>
+                <td>Work in <em>Academia Sofia</em></td>
+            </tr>
+            <tr>
+                <td>2018 - 2019</td>
+                <td>I don't remenber</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+    <h3>Skills</h3>
+    <table cellspacing="10">
+        <tr>
+            <td>
+            <td>Math</td>
+            <td>⭐⭐⭐</td>
+            </td>
+            <td>
+            <td>Painting</td>
+            <td>⭐⭐⭐</td>
+            </td>
+        </tr>
+        <tr>
+            <td>
+            <td>Cooking</td>
+            <td>⭐⭐⭐⭐</td>
+            </td>
+            <td>
+            <td>Web development</td>
+            <td>⭐⭐</td>
+            </td>
+        </tr>
+    </table>
+    <hr>
 
 </body>
+
 </html>
